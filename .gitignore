@@ -1,7 +1,7 @@
 target/
 .idea/
 .vscode/
-
+build/
 # Path we use for internal-keycache during tests
 /keys/
 # In case of symlinked keys

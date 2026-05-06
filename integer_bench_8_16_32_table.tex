@@ -1,0 +1,72 @@
+\begin{table}[htbp]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\caption{Integer benchmark latency (single-thread), median time in ms}
+\label{tab:integer-bench-8-16-32}
+\begin{tabular}{lrrr}
+\toprule
+Benchmark & 8-bit (ms) & 16-bit (ms) & 32-bit (ms) \\
+\midrule
+integer::abs\_parallelized & 0.002 & 0.003 & 0.006 \
+integer::add\_parallelized & 172.430 & 308.350 & 595.710 \
+integer::bitand\_parallelized & 81.362 & 157.040 & 308.310 \
+integer::bitnot & 0.003 & 0.005 & 0.011 \
+integer::bitor\_parallelized & 81.217 & 156.140 & 307.570 \
+integer::bitxor\_parallelized & 81.381 & 157.430 & 306.470 \
+integer::checked\_ilog2\_parallelized & 364.910 & 866.520 & 1794.900 \
+integer::count\_ones\_parallelized & 161.350 & 283.990 & 374.290 \
+integer::count\_zeros\_parallelized & 161.880 & 278.990 & 371.280 \
+integer::div\_rem\_parallelized & 3387.400 & 10113.000 & 34045.000 \
+integer::eq\_parallelized & 101.380 & 224.560 & 410.300 \
+integer::flip\_parallelized & 322.810 & 709.280 & 1256.300 \
+integer::ge\_parallelized & 102.090 & 234.860 & 451.080 \
+integer::gt\_parallelized & 101.430 & 237.920 & 453.040 \
+integer::if\_then\_else\_parallelized & 242.370 & 511.340 & 934.170 \
+integer::ilog2\_parallelized & 302.170 & 767.610 & 1590.300 \
+integer::le\_parallelized & 100.810 & 230.160 & 449.360 \
+integer::leading\_ones\_parallelized & 264.270 & 732.850 & 1512.900 \
+integer::leading\_zeros\_parallelized & 264.760 & 654.480 & 1513.500 \
+integer::left\_shift\_parallelized & 368.010 & 900.900 & 2149.200 \
+integer::lt\_parallelized & 101.160 & 224.070 & 450.040 \
+integer::max\_parallelized & 342.830 & 712.920 & 1394.300 \
+integer::min\_parallelized & 346.030 & 724.310 & 1390.900 \
+integer::mul\_parallelized & 572.950 & 2171.100 & 8440.000 \
+integer::ne\_parallelized & 100.960 & 225.180 & 413.370 \
+integer::neg\_parallelized & 142.540 & 286.490 & 562.410 \
+integer::right\_shift\_parallelized & 364.460 & 920.200 & 2150.800 \
+integer::rotate\_left\_parallelized & 448.300 & 973.060 & 2232.500 \
+integer::rotate\_right\_parallelized & 490.200 & 970.550 & 2236.400 \
+integer::scalar\_add\_parallelized & 141.150 & 308.860 & 611.950 \
+integer::scalar\_bitand\_parallelized & 75.057 & 165.410 & 306.980 \
+integer::scalar\_bitor\_parallelized & 75.907 & 160.140 & 310.120 \
+integer::scalar\_bitxor\_parallelized & 74.994 & 170.260 & 306.540 \
+integer::scalar\_div\_parallelized & 715.630 & 2179.800 & 6543.000 \
+integer::scalar\_eq\_parallelized & 60.544 & 107.220 & 215.390 \
+integer::scalar\_ge\_parallelized & 60.477 & 101.700 & 215.050 \
+integer::scalar\_gt\_parallelized & 60.769 & 102.030 & 215.300 \
+integer::scalar\_le\_parallelized & 60.675 & 102.170 & 216.230 \
+integer::scalar\_left\_shift\_parallelized & 80.826 & 166.660 & 315.140 \
+integer::scalar\_lt\_parallelized & 60.771 & 103.840 & 217.400 \
+integer::scalar\_max\_parallelized & 142.140 & 275.150 & 532.180 \
+integer::scalar\_min\_parallelized & 142.630 & 288.590 & 531.150 \
+integer::scalar\_mul\_parallelized & 253.350 & 855.190 & 2649.000 \
+integer::scalar\_ne\_parallelized & 61.062 & 102.760 & 215.060 \
+integer::scalar\_rem\_parallelized & 1015.200 & 3096.000 & 8147.700 \
+integer::scalar\_right\_shift\_parallelized & 80.684 & 178.050 & 314.030 \
+integer::scalar\_rotate\_left\_parallelized & 80.666 & 161.460 & 312.550 \
+integer::scalar\_rotate\_right\_parallelized & 81.407 & 177.520 & 313.140 \
+integer::scalar\_sub\_parallelized & 141.870 & 309.560 & 605.770 \
+integer::sub\_parallelized & 169.570 & 308.760 & 606.990 \
+integer::sum\_ciphertexts\_parallelized & 928.050 & 2036.800 & 4224.300 \
+integer::trailing\_ones\_parallelized & 262.150 & 675.430 & 1520.500 \
+integer::trailing\_zeros\_parallelized & 262.870 & 692.630 & 1510.900 \
+integer::unsigned\_oprf & 70.393 & 144.440 & 281.690 \
+integer::unsigned\_overflowing\_add\_parallelized & 177.460 & 309.750 & 606.110 \
+integer::unsigned\_overflowing\_mul\_parallelized & 1055.900 & 3336.400 & 12168.000 \
+integer::unsigned\_overflowing\_scalar\_add\_parallelized & 163.280 & 330.510 & 627.970 \
+integer::unsigned\_overflowing\_scalar\_sub\_parallelized & 161.460 & 328.190 & 625.160 \
+integer::unsigned\_overflowing\_sub\_parallelized & 163.000 & 309.810 & 614.900 \
+\bottomrule
+\end{tabular}
+\end{table}
